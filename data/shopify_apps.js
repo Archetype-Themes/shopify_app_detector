@@ -1,12 +1,12 @@
 // Last updated April 28, 2019.
 var SHOPIFY_APPS = [
     {
-        name: 'Fera.ai', // Keep this under 20 characters
+        name: 'Fera Social/Reviews', // Keep this under 20 characters
         short_description: 'Real-time personalization + CRO (w/ timers, social proof, counters, etc.)',  // Keep this under 75 characters
-        long_description: 'Real-time personalization and conversion rate optimization platform with built-in promo bars, popups, timers, social proof, counters, etc.', 
-        app_store_url: 'https://apps.shopify.com/fera', 
+        long_description: 'Real-time personalization and conversion rate optimization platform with built-in promo bars, popups, timers, social proof, counters, etc.',
+        app_store_url: 'https://apps.shopify.com/fera',
         website_url: "https://www.fera.ai",
-        script_pattern: "bananastand.js",
+        script_pattern: "cdn.fera.ai/js",
         category: "Sales"
     },
     {
@@ -21,7 +21,7 @@ var SHOPIFY_APPS = [
     {
         name: 'In‑Store Reserver',
         short_description: 'Let customers reserve products online for in-store pickup',
-        app_store_url: 'https://apps.shopify.com/reserve-in-store-by-fera', 
+        app_store_url: 'https://apps.shopify.com/reserve-in-store-by-fera',
         website_url: "https://www.fera.ai",
         script_pattern: "reserveinstore.js",
         category: "Orders and shipping"
@@ -63,7 +63,7 @@ var SHOPIFY_APPS = [
         short_description: "Pop Ups & Social Media Marketing Platform",
         app_store_url: "https://apps.shopify.com/justuno-social-email-leads",
         website_url: "https://www.justuno.com",
-        script_pattern: "scripttags.justuno.com", 
+        script_pattern: "scripttags.justuno.com",
         category: "Marketing"
     },
     {
@@ -1096,7 +1096,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/searchanise",
         website_url: "https://start.searchanise.com/shopify",
         script_pattern: "searchanise.com/widgets/shopify/init.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Hubspot",
@@ -1104,7 +1104,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/hubspot",
         website_url: "https://hubspot.com",
         script_pattern: "api.hubapi.com",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Exto",
@@ -1112,7 +1112,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/automatic-related-products",
         website_url: "http://shopify.exto.io/",
         script_pattern: "apps1.exto.io",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Back in Stock",
@@ -1120,7 +1120,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/back-in-stock",
         website_url: "https://backinstock.org",
         script_pattern: "app.backinstock.org",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "SLoyalty",
@@ -1128,7 +1128,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/s-loyalty",
         website_url: "https://www.sloyalty.com/",
         script_pattern: "sloyalty.shopify.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Trackify",
@@ -2410,5 +2410,31 @@ var SHOPIFY_APPS = [
         website_url: "http://lowfruitsolutions.com",
         script_pattern: "cdn.instantbrandpage.lowfruitsolutions.com",
         category: "Sales"
+    },
+    {
+        name: 'Justuno Pop Ups & CRO',
+        short_description: 'AI Popups for Lead Capture, Exit Offers, Increase AOV, & More',
+        app_store_url: 'https://apps.shopify.com/justuno-social-email-leads',
+        website_url: "https://www.justuno.com/",
+        script_pattern: "scripttags.justuno.com/shopify_justuno",
+        category: "Sales"
+    },
+    {
+      name: "Inkybay",
+      short_description: "Inkybay is a web based product personalization tool for print shops",
+      long_description: "Inkybay - Product Customizer is a web-based application which provides the ultimate solution for business owners who want to enable self-customization options on their online stores. So, the customers can easily personalize the products according to their requirements, and place an order, and the store owners receive the print-ready vector files eventually.",
+      app_store_url: "https://apps.shopify.com/productsdesigner",
+      website_url: "https://inkybay.com/",
+      script_pattern: "inkybay.js",
+      category: "Store Design"
+    },
+    {
+      name: "MultiVariants Bulk Order",
+      short_description: "Bulk order for multiple variants quantity of the same product",
+      long_description: "One click bulk add to cart for product variants. MultiVariants - Bulk Order allows your customers to order multiple variants and quantities of the same product in just one click. Increase your sales and conversion rate by allowing bulk product orders.",
+      app_store_url: "https://apps.shopify.com/multivariants",
+      website_url: "https://multivariants.com/",
+      script_pattern: "init.js",
+      category: "Store design"
     }
 ];
