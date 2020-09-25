@@ -2412,29 +2412,45 @@ var SHOPIFY_APPS = [
         category: "Sales"
     },
     {
-        name: 'Justuno Pop Ups & CRO',
-        short_description: 'AI Popups for Lead Capture, Exit Offers, Increase AOV, & More',
-        app_store_url: 'https://apps.shopify.com/justuno-social-email-leads',
+        name: "Justuno Pop Ups & CRO",
+        short_description: "AI Popups for Lead Capture, Exit Offers, Increase AOV, & More",
+        app_store_url: "https://apps.shopify.com/justuno-social-email-leads",
         website_url: "https://www.justuno.com/",
         script_pattern: "scripttags.justuno.com/shopify_justuno",
         category: "Sales"
     },
     {
-      name: "Inkybay",
-      short_description: "Inkybay is a web based product personalization tool for print shops",
-      long_description: "Inkybay - Product Customizer is a web-based application which provides the ultimate solution for business owners who want to enable self-customization options on their online stores. So, the customers can easily personalize the products according to their requirements, and place an order, and the store owners receive the print-ready vector files eventually.",
-      app_store_url: "https://apps.shopify.com/productsdesigner",
-      website_url: "https://inkybay.com/",
-      script_pattern: "inkybay.js",
-      category: "Store Design"
+        name: "Inkybay",
+        short_description: "Inkybay is a web based product personalization tool for print shops",
+        long_description: "Inkybay - Product Customizer is a web-based application which provides the ultimate solution for business owners who want to enable self-customization options on their online stores. So, the customers can easily personalize the products according to their requirements, and place an order, and the store owners receive the print-ready vector files eventually.",
+        app_store_url: "https://apps.shopify.com/productsdesigner",
+        website_url: "https://inkybay.com/",
+        script_pattern: "inkybay.js",
+        category: "Store Design"
     },
     {
-      name: "MultiVariants Bulk Order",
-      short_description: "Bulk order for multiple variants quantity of the same product",
-      long_description: "One click bulk add to cart for product variants. MultiVariants - Bulk Order allows your customers to order multiple variants and quantities of the same product in just one click. Increase your sales and conversion rate by allowing bulk product orders.",
-      app_store_url: "https://apps.shopify.com/multivariants",
-      website_url: "https://multivariants.com/",
-      script_pattern: "init.js",
-      category: "Store design"
+        name: "MultiVariants Bulk Order",
+        short_description: "Bulk order for multiple variants quantity of the same product",
+        long_description: "One click bulk add to cart for product variants. MultiVariants - Bulk Order allows your customers to order multiple variants and quantities of the same product in just one click. Increase your sales and conversion rate by allowing bulk product orders.",
+        app_store_url: "https://apps.shopify.com/multivariants",
+        website_url: "https://multivariants.com/",
+        script_pattern: "multivariants.com/gate/out/sys/js/init.js",
+        category: "Store design"
+    },
+    {
+        name: "Free GDPR + EU Cookie",
+        short_description: "FREE EU/GDPR cookie! Works with Spocket, Oberlo & Loox",
+        app_store_url: "https://apps.shopify.com/coupo-gdpr-cookie-bar",
+        website_url: "",
+        script_pattern: "app.coupo.co/cookie-bar.js",
+        category: "Trust and security"
+    },
+    {
+        name: "GTranslate",
+        short_description: "Translate your store and reach multilingual markets!",
+        app_store_url: "https://apps.shopify.com/multilingual-shop-by-gtranslate",
+        website_url: "https://gtranslate.io/",
+        script_pattern: "gtranslate.io/shopify/gtranslate.js",
+        category: "Store design"
     }
 ];
