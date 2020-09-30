@@ -71,7 +71,7 @@ var SHOPIFY_APPS = [
         short_description: "Landing Page Builder",
         app_store_url: "https://apps.shopify.com/shogun",
         website_url: "https://getshogun.com",
-        script_pattern: "cdn.getshogun.com/pixel.js",
+        script_pattern: "getshogun.com/collector.js",
         category: "Marketing"
     },
     {
@@ -303,7 +303,7 @@ var SHOPIFY_APPS = [
         short_description: "Messenger Marketing & Abandoned Cart Recovery",
         app_store_url: "https://apps.shopify.com/consistent-cart",
         website_url: "https://www.consistentcart.com/",
-        script_pattern: "consistent_cart_addon.min.js",
+        script_pattern: "consistentcart.com/replay.js",
         category: "Sales"
     },
     {
@@ -319,7 +319,7 @@ var SHOPIFY_APPS = [
         short_description: "Collect Product reviews, site reviews and photo/video reviews",
         app_store_url: "https://apps.shopify.com/product-reviews-addon",
         website_url: "https://stamped.io",
-        script_pattern: "stamped-io",
+        script_pattern: "stamped.io/files/widget.min.js",
         category: "Sales"
     },
     {
@@ -2000,7 +2000,7 @@ var SHOPIFY_APPS = [
         short_description: "Manage all your size charts",
         app_store_url: "https://apps.shopify.com/kiwi-sizing",
         website_url: "",
-        script_pattern: "kiwishopapps.com",
+        script_pattern: "kiwisizing.com",
         category: "Store Design"
     },
     {
@@ -2452,5 +2452,37 @@ var SHOPIFY_APPS = [
         website_url: "https://gtranslate.io/",
         script_pattern: "gtranslate.io/shopify/gtranslate.js",
         category: "Store design"
+    },
+    {
+        name: "Cozy AntiTheft",
+        short_description: "Disable right click, Protects Stores Images, Text copy & paste",
+        app_store_url: "https://apps.shopify.com/cozy-antitheft-for-images-and-more",
+        website_url: "https://addons.business/",
+        script_pattern: "cdncozyantitheft.addons",
+        category: "Trust and security"
+    },
+    {
+        name: "Shopify Chat",
+        short_description: "Use live chat to turn visitors into customers.",
+        app_store_url: "https://apps.shopify.com/chat",
+        website_url: "",
+        script_pattern: "shopify_chat/storefront/shopifyChat",
+        category: "Customer service"
+    },
+    {
+        name: "Geolocation",
+        short_description: "Boost global sales with language and currency recommendations",
+        app_store_url: "https://apps.shopify.com/geolocation",
+        website_url: "",
+        script_pattern: "geolocation-recommendations.shopifycloud.com",
+        category: "Store design"
+    },
+    {
+        name: "Heatmaps & Replay",
+        short_description: "View Recordings to see why people abandon carts & grow sales!",
+        app_store_url: "https://apps.shopify.com/lucky-orange",
+        website_url: "https://www.luckyorange.com/",
+        script_pattern: "cloudfront.net/w.js",
+        category: "Reporting"
     }
 ];
