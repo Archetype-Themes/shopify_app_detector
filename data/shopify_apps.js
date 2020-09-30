@@ -2484,5 +2484,13 @@ var SHOPIFY_APPS = [
         website_url: "https://www.luckyorange.com/",
         script_pattern: "cloudfront.net/w.js",
         category: "Reporting"
+    },
+    {
+        name: "Smarketly Page Builder Editor",
+        short_description: "Build landing & product pages, add sliders, sections, FAQs",
+        app_store_url: "https://apps.shopify.com/smarketly-page-builder-editor",
+        website_url: "",
+        script_pattern: "smk-sections.js",
+        category: "Store Design"
     }
 ];
