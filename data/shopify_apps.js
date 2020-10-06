@@ -2508,5 +2508,13 @@ var SHOPIFY_APPS = [
         website_url: "",
         script_pattern: "cloudfront.net/section-feed.js?shop",
         category: "Sales"
+    },
+    {
+      name: "Affiliate Marketing Goaffpro",
+      short_description: "Goaffpro - Professional affiliate marketing app",
+      app_store_url: "https://apps.shopify.com/goaffpro",
+      website_url: "https://goaffpro.com/",
+      script_pattern: "api.goaffpro.com/loader.js",
+      category: "Marketing"
     }
 ];
