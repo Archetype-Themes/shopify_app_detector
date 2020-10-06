@@ -2492,5 +2492,21 @@ var SHOPIFY_APPS = [
         website_url: "",
         script_pattern: "smk-sections.js",
         category: "Store Design"
+    },
+    {
+        name: "Weglot",
+        short_description: "Translate your store into multiple languages.",
+        app_store_url: "https://apps.shopify.com/weglot",
+        website_url: "https://support.weglot.com/",
+        script_pattern: "weglot_script_tag.js",
+        category: "Store Design"
+    },
+    {
+        name: "Section Feed",
+        short_description: "Showcase your Instagram feed. 100% compatible with the new API",
+        app_store_url: "https://apps.shopify.com/section-feed-by-maestrooo",
+        website_url: "",
+        script_pattern: "cloudfront.net/section-feed.js?shop",
+        category: "Sales"
     }
 ];
