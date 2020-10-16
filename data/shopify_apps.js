@@ -47,7 +47,7 @@ var SHOPIFY_APPS = [
         short_description: "Free shipping bar with updated cart goal to boost order value",
         app_store_url: "https://apps.shopify.com/free-shipping-bar",
         website_url: "https://hextom.com",
-        script_pattern: "lastsecondcoupon/js/freeshippingbar.js",
+        script_pattern: "freeshippingbar.js",
         category: "Marketing"
     },
     {
@@ -607,7 +607,7 @@ var SHOPIFY_APPS = [
         short_description: "Lookbook, Instagram & Customer Galleries",
         app_store_url: "https://apps.shopify.com/covet-pics",
         website_url: "https://covet.pics",
-        script_pattern: "embed_v1.js",
+        script_pattern: "shopify.covet.pics",
         category: "Social media"
     },
     {
@@ -2510,11 +2510,27 @@ var SHOPIFY_APPS = [
         category: "Sales"
     },
     {
-      name: "Affiliate Marketing Goaffpro",
-      short_description: "Goaffpro - Professional affiliate marketing app",
-      app_store_url: "https://apps.shopify.com/goaffpro",
-      website_url: "https://goaffpro.com/",
-      script_pattern: "api.goaffpro.com/loader.js",
-      category: "Marketing"
+        name: "Affiliate Marketing Goaffpro",
+        short_description: "Goaffpro - Professional affiliate marketing app",
+        app_store_url: "https://apps.shopify.com/goaffpro",
+        website_url: "https://goaffpro.com/",
+        script_pattern: "api.goaffpro.com/loader.js",
+        category: "Marketing"
+    },
+    {
+        name: "GDPR/CCPA + Cookie Management",
+        short_description: "GDPR & CCPA Bar with Consent Tracking and Reports!",
+        app_store_url: "https://apps.shopify.com/gdpr-backpack",
+        website_url: "https://gdpr.apps.isenselabs.com/",
+        script_pattern: "gdpr_cookie_consent.min.js",
+        category: "Trust and security"
+    },
+    {
+        name: "Auto Multi Currency Converter",
+        short_description: "Automatically display prices in local currencies.",
+        app_store_url: "https://apps.shopify.com/auto-multi-currency-converter",
+        website_url: "https://www.conversionbear.com/",
+        script_pattern: "currency.conversionbear.com",
+        category: "Sales"
     }
 ];
