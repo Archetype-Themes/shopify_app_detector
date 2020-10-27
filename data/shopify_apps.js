@@ -2532,5 +2532,53 @@ var SHOPIFY_APPS = [
         website_url: "https://www.conversionbear.com/",
         script_pattern: "currency.conversionbear.com",
         category: "Sales"
+    },
+    {
+        name: "Ultimate Trust Badges",
+        short_description: "Badges to boost customer trust and confidence",
+        app_store_url: "apps.shopify.com/ultimate-trust-badges",
+        website_url: "https://www.conversionbear.com/",
+        script_pattern: "trust.conversionbear.com",
+        category: "Sales"
+    },
+    {
+        name: "WhatsApp Chat + Abandoned Cart",
+        short_description: "AUTOMATED Cart Recovery + 100% FREE WhatsApp Chat & Share",
+        app_store_url: "https://apps.shopify.com/whatsapp-chat-button",
+        website_url: "https://www.superlemon.xyz/",
+        script_pattern: "files/superlemon_']",
+        category: "Sales"
+    },
+    {
+        name: "Fontify ‑ Use any font",
+        short_description: "Changing the font for your store has never been easier",
+        app_store_url: "https://apps.shopify.com/fontify-change-customize-font-for-your-store",
+        website_url: "https://the4.co/",
+        script_pattern: "nitroapps.co/js/fontify.js']",
+        category: "Store Design"
+    },
+    {
+        name: "Bold Upsell ‑ True upsells!",
+        short_description: "Top-rated BFCM app: Sell more with upsells and cross-sells",
+        app_store_url: "https://apps.shopify.com/product-upsell",
+        website_url: "https://boldcommerce.com/",
+        script_pattern: "js/UpsellTracker.js']",
+        category: "Sales"
+    },
+    {
+        name: "VITALS | 40+ apps in one",
+        short_description: "Review Importer, Bundle, Upsell, Currency Converter, Sales Pop",
+        app_store_url: "https://apps.shopify.com/vitals",
+        website_url: "https://vitals.co/",
+        script_pattern: "appsolve.io/assets/js/bundle.js']",
+        category: "Sales"
+    },
+    {
+        name: "Contact Form",
+        short_description: "Popup contact form widget, contact us page with custom fields.",
+        app_store_url: "https://apps.shopify.com/easy-contact-form-by-ndnapps-com",
+        website_url: "https://www.ndnapps.com/",
+        script_pattern: "ndnapps/contact-form/js/ndnapps-contactform.js']",
+        category: "Customer service"
     }
 ];
